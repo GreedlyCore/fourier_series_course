@@ -1,0 +1,61 @@
+\chapter{Вспомогательные функции и библиотеки}
+\label{ch:chap1}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+Онлайн версию кода в colab можно глянуть \href{https://colab.research.google.com/drive/18OXQjzdn8iWHcQShWfElPcsidweJTsYt?usp=sharing}{здесь}. 
+Учтите, что аккорды не загружены, поэтому конвертировать и загружать их придётся самостоятельно :(
+\section{Задание 1}
+Были использованы следующие библиотеки:
+\lstinputlisting[language=Python]{listings/listing0.py}
+Кусочно-заданные функции реализовывал через функционал numpy, на примере первой функции прямоугольника:
+\lstinputlisting[language=Python]{listings/listing1.py}
+Пример кода для построения графиков в matplotlib, больше можно увидеть в онлайн-блокноте:
+\lstinputlisting[language=Python]{listings/listing2.py}
+Реализовывал проверку равенства Парсеваля через интегрирование на Scipy, которое не всегда хорошо работает, это стоит учитывать:
+\lstinputlisting[language=Python]{listings/listing3.py}
+
+\section{Задание 2}
+
+Проверка равенства Парсеваля осталась та же, как в первом задании.
+
+Функция сдвинутого треугольника была реализована по аналогии с прошлым заданием:
+\lstinputlisting[language=Python]{listings/listing4.py}
+
+\section{Задание 3}
+
+Для чтения звуковой волны с файла .mp3 с помощью библиотеки librosa:
+\lstinputlisting[language=Python]{listings/listing5.py}
+
+Для построения графика волны выше: 
+\lstinputlisting[language=Python]{listings/listing6.py}
+
+Дополнительные функции для численного интегрирования "ручками" образа Фурье для волны:
+\lstinputlisting[language=Python]{listings/listing7.py}
+
+
+\endinput

@@ -1,0 +1,40 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Вспомогательные функции и библиотеки}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Задание 1}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Задание 2}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Задание 3}{5}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {2}Задание 1. Вещественное}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Прямоугольная функция}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Фурье-Образ}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Графики функции и Фурье-образа}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Равенство Парсеваля}{9}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Анализ ситуации}{10}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Треугольная функция}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Фурье-Образ}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Графики функции и Фурье-образа}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Равенство Парсеваля}{13}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Анализ ситуации}{14}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Кардинальный синус}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Фурье-Образ}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Графики функции и Фурье-образа}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Равенство Парсеваля}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Анализ ситуации}{15}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Функция Гаусса}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Фурье-Образ}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Графики функции и Фурье-образа}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Равенство Парсеваля}{19}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Анализ ситуации}{19}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Двустороннее затухание}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Фурье-Образ}{20}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Графики функции и Фурье-образа}{20}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Равенство Парсеваля}{21}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Анализ ситуации}{22}{subsection.2.5.4}%
+\contentsline {chapter}{\chapternumberline {3}Задание 2. Комплексное}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Фурье-образ}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Графики функции, компонент f(t), а также её модуля}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Анализ степени сдвига на функцию и Фурье-образ}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Равенство Парсеваля}{30}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {4}Задание 3. Музыкальное}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Построить график ноты}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Найти численно Фурье-образ}{32}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Анализ Фурье-образа}{33}{section.4.3}%

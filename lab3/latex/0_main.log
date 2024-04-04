@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  4 APR 2024 23:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  5 APR 2024 01:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1359,8 +1359,6 @@ File: images/applied_filter_a=3_b=8_c=0_d=0.png Graphic file (type bmp)
 <images/applied_filter_a=3_b=8_c=0_d=0.png>
  [7] [8] [9] [10] [11]) (./5_chapter3.tex [12
 
-]) (./6_chapter4.tex [13
-
 ])
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
@@ -1370,7 +1368,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[table] on input line 85.
 See the caption package documentation for explanation.
 
-[14
+[13
 
 ]
 \tf@toc=\write6
@@ -1382,18 +1380,18 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `0_main.out' has not changed.
-(rerunfilecheck)             Checksum: D88225313C1B33144F50C9768DB36C2C;3722.
+(rerunfilecheck)             Checksum: B3B3BAF7D4180F3D5B6795E8A835CD4F;3540.
 Package logreq Info: Writing requests to '0_main.run.xml'.
 \openout1 = `0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30486 strings out of 474928
- 578609 string characters out of 5765086
- 1927164 words of memory out of 5000000
- 52071 multiletter control sequences out of 15000+600000
+ 30482 strings out of 474928
+ 578522 string characters out of 5765086
+ 1926164 words of memory out of 5000000
+ 52070 multiletter control sequences out of 15000+600000
  561533 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,11n,93p,1147b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (14 pages).
+Output written on 0_main.pdf (13 pages).

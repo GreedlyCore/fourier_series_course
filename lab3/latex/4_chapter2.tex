@@ -49,87 +49,98 @@ $$
 \texttt{u = g + b*(rand(size(t))-0.5)}
 $$\dots из чего сразу следует, что у нас добавляется только "случайный" шум.
 
-\newpage
-\subsection{Фурье-образ сигнала u}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{image_a=3_b=1_c=0_d=0.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{image_a=3_b=2_c=0_d=0.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
+% \begin{figure}
+%     \begin{subfigure}[t]{.4\textwidth}
+%       \centering
+%       \includegraphics[width=0.3\textwidth]{image_a=3_b=1_c=0_d=0.png}
+%       \caption{\textbf{Schnitt}: $A \cup B$: Element liegt in $A$ \textbf{oder} in $B$.}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[t]{.4\textwidth}
+%       \centering
+%       \includegraphics[width=0.3\textwidth]{image_a=3_b=1_c=0_d=0.png}
+%       \caption{\textbf{Vereinigung}: $A \cap B$: Element liegt in $A$ \textbf{und} in $B$.}
+%     \end{subfigure}
+  
+%     \medskip
+  
+%     \begin{subfigure}[t]{.4\textwidth}
+%       \centering
+%       \includegraphics[width=0.3\textwidth]{image_a=3_b=1_c=0_d=0.png}
+%       \caption{\textbf{Differenz}: $A \setminus B$: Element liegt in $A$ \textbf{nicht} in $B$. (\textit{A ohne B})}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[t]{.4\textwidth}
+%       \centering
+%       \includegraphics[width=0.3\textwidth]{image_a=3_b=1_c=0_d=0.png}
+%       \caption{\textbf{Symmetrische Differenz}: $A \Delta B$: Element liegt \textbf{entweder} in $A$ oder in $B$.}
+%     \end{subfigure}
+% \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{image_a=3_b=5_c=0_d=0.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{image_a=3_b=8_c=0_d=0.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\newpage
-\subsection{Применяем фильтр}
-В нашем случае ступенька фильтра будет около середины, потому что мы сохраняем нижние частоты, а они сосредоточены около начала графика. Будем применять разные диапазоны фильтра:
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=1_c=0_d=0.png}
-    \caption{Применили фильтр нижних частот}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=2_c=0_d=0.png}
-    \caption{Применили фильтр нижних частот}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=5_c=0_d=0.png}
-    \caption{Применили фильтр нижних частот}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=8_c=0_d=0.png}
-    \caption{Применили фильтр нижних частот}
-\end{figure}
+В дальнейший прогонах фильтра мы будем каждое испытание показывать вместе, в таком порядке: сначала ищем образ Фурье зашумленного сигнала,  после фильтруем лишнее, и делаем обратное преобразование Фурье и сравниваем с оригиналом.
 
 \newpage
-\subsection{Возвращаемся к очищенному сигналу}
+\subsection{Испытание 1}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=1_c=0_d=0.png}
-    \caption{Применили обратное преобразование Фурье}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_1_image_a=3_b=1_c=0_d=0.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_1_applied_filter_a=3_b=1_c=0_d=0.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_1_pure_signal_a=3_b=1_c=0_d=0.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 1}
 \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=2_c=0_d=0.png}
-    \caption{Применили обратное преобразование Фурье}
+\newpage
+\subsection{Испытание 2}
+
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_1_image_a=3_b=6_c=0_d=0.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_1_applied_filter_a=3_b=6_c=0_d=0.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_1_pure_signal_a=3_b=6_c=0_d=0.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 2}
 \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=5_c=0_d=0.png}
-    \caption{Применили обратное преобразование Фурье}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=8_c=0_d=0.png}
-    \caption{Применили обратное преобразование Фурье}
-\end{figure}
 
 \newpage
 \subsection{Выводы}
@@ -140,89 +151,126 @@ $$\dots из чего сразу следует, что у нас добавля
 
 \section{Убираем специфические частоты}
 
-Выберем все параметры $b, c, d$ ненулевыми. Теперь мы уже имеем дело с двумя компонентами шума - случайным и гармоническим. Соответственно, чтобы убрать обе компоненты, надо применить два фильтра, один из них мы уже нашли в пункте до.
-\newpage
-\subsection{Фурье-образ сигнала u}
-
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=1_c=2_d=6.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=2_d=3.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=0_c=2_d=3.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=2_d=3.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
+Выберем все параметры $b, c, d$ ненулевыми. Теперь мы уже имеем дело с двумя компонентами шума - случайным и гармоническим. Соответственно, чтобы убрать обе компоненты, надо применить два фильтра, один из них мы уже нашли в пункте до(специфический+низкий).
 
 \newpage
-\subsection{Применяем фильтр}
-В данном случае далеко слишком начало пределов фильтра не стоит ставить - иначе сигнал совсем уж плохо отфильтруется.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=1_c=2_d=6.png}
-    \caption{Применили специфический фильтр}
-\end{figure}
+\subsection{Испытание 1}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=2_d=3.png}
-    \caption{Применили специфический фильтр}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=0_c=2_d=3.png}
-    \caption{Применили специфический фильтр}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=2_d=3.png}
-    \caption{Применили специфический фильтр}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_abs_image_a=3_b=1_c=2_d=6.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_applied_filters_a=3_b=1_c=2_d=6.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_2_pure_signal_a=3_b=1_c=2_d=6.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 1}
 \end{figure}
 
 \newpage
+\subsection{Испытание 2}
+
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_abs_image_a=3_b=6_c=2_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_applied_filters_a=3_b=6_c=2_d=3.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_2_pure_signal_a=3_b=6_c=2_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 2}
+\end{figure}
+
 \newpage
-\subsection{Возвращаемся к очищенному сигналу}
-Применяем обратное преобразование Фурье, а потом сравниваем с оригинальным сигналом\dots
+\subsection{Испытание 3}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=1_c=2_d=6.png}
-    \caption{Делаем обратное преобразование Фурье}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_abs_image_a=3_b=0_c=2_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_applied_filters_a=3_b=0_c=2_d=3.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_2_pure_signal_a=3_b=0_c=2_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 3}
 \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=2_d=3.png}
-    \caption{Делаем обратное преобразование Фурье}
-\end{figure}
+\newpage
+\subsection{Испытание 4}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=0_c=2_d=3.png}
-    \caption{Делаем обратное преобразование Фурье}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=2_d=3.png}
-    \caption{Делаем обратное преобразование Фурье}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_abs_image_a=3_b=5_c=6_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_2_applied_filters_a=3_b=5_c=6_d=3.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_2_pure_signal_a=3_b=5_c=6_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 4}
 \end{figure}
 
 \newpage
@@ -239,54 +287,66 @@ $$\dots из чего сразу следует, что у нас добавля
 Рассмотрим фильтр, который обнуляет Фурье-образ на всех частотах в некоторой окрестности точки $\nu = 0$. 
 Пропустим сигнал через такой фильтр и оценим результат.
 
-\newpage
-\subsection{Фурье-образ сигнала u}
+\subsection{Испытание 1}
 
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=0_c=3_d=3.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=5_d=4.png}
-    \caption{Фурье-образ зашумлённого сигнала}
-\end{figure}
-
-
-\newpage
-\subsection{Применяем фильтр}
-Текст.
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=0_c=3_d=3.png}
-    \caption{Применяем фильтр высоких частот}
-\end{figure}
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=5_d=4.png}
-    \caption{Применяем фильтр высоких частот}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_3_abs_image_a=3_b=3_c=2_d=1.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_3_applied_filter_a=3_b=3_c=2_d=1.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_3_pure_signal_a=3_b=3_c=2_d=1.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 1}
 \end{figure}
 
 \newpage
-\newpage
-\subsection{Возвращаемся к очищенному сигналу}
-Применяем обратное преобразование Фурье, а потом сравниваем с оригинальным сигналом\dots
+\subsection{Испытание 2}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=0_c=3_d=3.png}
-    \caption{Применяем обратное преобразование Фурье}
+\begin{figure}[!ht]
+	\centering
+\hspace*{\fill}%
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_3_abs_image_a=3_b=3_c=3_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.3\textwidth]{task_3_applied_filter_a=3_b=3_c=3_d=3.png}
+        \caption{}
+		
+	\end{subfigure}
+\hspace*{\fill}%
+\par\vspace{\abovecaptionskip}
+        \begin{subfigure}[b]{0.30\textwidth}
+        \centering
+		\includegraphics[width=1.5\textwidth]{task_3_pure_signal_a=3_b=3_c=3_d=3.png}
+		\caption{}
+	
+	\end{subfigure}
+	\caption{Испытание 2}
 \end{figure}
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=5_d=4.png}
-    \caption{Применяем обратное преобразование Фурье}
-\end{figure}
+
 
 \newpage
 \subsection{Выводы}

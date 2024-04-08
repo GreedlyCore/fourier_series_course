@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  5 APR 2024 01:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  7 APR 2024 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,30 +1146,30 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = `0_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 179.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 187.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 187.
  (d:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1205,69 +1205,69 @@ LaTeX Font Info:    ... okay on input line 179.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 179.
+LaTeX Info: Redefining \th on input line 187.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 179.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 179.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 179.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 179.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 179.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 179.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 179.
-LaTeX Font Info:    Redeclaring math accent \check on input line 179.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 179.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 179.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 179.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 179.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 187.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 187.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 187.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 187.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 187.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 187.
+LaTeX Font Info:    Redeclaring math accent \check on input line 187.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 187.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 187.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 179.
+(Font)              `operators' in the math version `normal' on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 179.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 179.
+(Font)              `operators' in the math version `bold' on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 179.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 179.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 179.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 179.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 179.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 179.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 179.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 179.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 179.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 179.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 187.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 179.
+Package hyperref Info: Link coloring ON on input line 187.
 (./0_main.out) (./0_main.out)
 \@outlinefile=\write5
 \openout5 = `0_main.out'.
@@ -1310,10 +1310,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '0_main.bbl' not found.
 
 No file 0_main.bbl.
-Package biblatex Info: Reference section=0 on input line 179.
-Package biblatex Info: Reference segment=0 on input line 179.
+Package biblatex Info: Reference section=0 on input line 187.
+Package biblatex Info: Reference segment=0 on input line 187.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 179.
+Package chemgreek Info: Activating mapping `fontspec' on line 187.
 
 \c@lstlisting=\count545
 (./1_title.tex) [1
@@ -1349,15 +1349,70 @@ File: images/applied_filter_a=3_b=5_c=0_d=0.png Graphic file (type bmp)
 File: images/applied_filter_a=3_b=8_c=0_d=0.png Graphic file (type bmp)
 <images/applied_filter_a=3_b=8_c=0_d=0.png>
  [6]
-File: images/applied_filter_a=3_b=1_c=0_d=0.png Graphic file (type bmp)
-<images/applied_filter_a=3_b=1_c=0_d=0.png>
-File: images/applied_filter_a=3_b=2_c=0_d=0.png Graphic file (type bmp)
-<images/applied_filter_a=3_b=2_c=0_d=0.png>
-File: images/applied_filter_a=3_b=5_c=0_d=0.png Graphic file (type bmp)
-<images/applied_filter_a=3_b=5_c=0_d=0.png>
-File: images/applied_filter_a=3_b=8_c=0_d=0.png Graphic file (type bmp)
-<images/applied_filter_a=3_b=8_c=0_d=0.png>
- [7] [8] [9] [10] [11]) (./5_chapter3.tex [12
+File: images/pure_signal_a=3_b=1_c=0_d=0.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=1_c=0_d=0.png>
+File: images/pure_signal_a=3_b=2_c=0_d=0.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=2_c=0_d=0.png>
+File: images/pure_signal_a=3_b=5_c=0_d=0.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=5_c=0_d=0.png>
+File: images/pure_signal_a=3_b=8_c=0_d=0.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=8_c=0_d=0.png>
+ [7] [8] [9] [10] [11
+
+]
+File: images/abs_image_a=3_b=1_c=2_d=6.png Graphic file (type bmp)
+<images/abs_image_a=3_b=1_c=2_d=6.png>
+File: images/abs_image_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/abs_image_a=3_b=6_c=2_d=3.png>
+File: images/abs_image_a=3_b=0_c=2_d=3.png Graphic file (type bmp)
+<images/abs_image_a=3_b=0_c=2_d=3.png>
+File: images/abs_image_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/abs_image_a=3_b=6_c=2_d=3.png>
+ [12]
+File: images/applied_filter_a=3_b=1_c=2_d=6.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=1_c=2_d=6.png>
+File: images/applied_filter_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=6_c=2_d=3.png>
+File: images/applied_filter_a=3_b=0_c=2_d=3.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=0_c=2_d=3.png>
+File: images/applied_filter_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=6_c=2_d=3.png>
+ [13]
+File: images/pure_signal_a=3_b=1_c=2_d=6.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=1_c=2_d=6.png>
+File: images/pure_signal_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=6_c=2_d=3.png>
+File: images/pure_signal_a=3_b=0_c=2_d=3.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=0_c=2_d=3.png>
+File: images/pure_signal_a=3_b=6_c=2_d=3.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=6_c=2_d=3.png>
+ [14] [15] [16] [17] [18
+
+]
+File: images/abs_image_a=3_b=0_c=3_d=3.png Graphic file (type bmp)
+<images/abs_image_a=3_b=0_c=3_d=3.png>
+File: images/abs_image_a=3_b=6_c=5_d=4.png Graphic file (type bmp)
+<images/abs_image_a=3_b=6_c=5_d=4.png>
+ [19]
+File: images/applied_filter_a=3_b=0_c=3_d=3.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=0_c=3_d=3.png>
+File: images/applied_filter_a=3_b=6_c=5_d=4.png Graphic file (type bmp)
+<images/applied_filter_a=3_b=6_c=5_d=4.png>
+ [20]
+File: images/pure_signal_a=3_b=0_c=3_d=3.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=0_c=3_d=3.png>
+File: images/pure_signal_a=3_b=6_c=5_d=4.png Graphic file (type bmp)
+<images/pure_signal_a=3_b=6_c=5_d=4.png>
+ [21]) (./5_chapter3.tex [22]
+File: images/task2_signal1.png Graphic file (type bmp)
+<images/task2_signal1.png>
+File: images/task2_image1.png Graphic file (type bmp)
+<images/task2_image1.png>
+File: images/task2_image2.png Graphic file (type bmp)
+<images/task2_image2.png>
+File: images/task2_signal2.png Graphic file (type bmp)
+<images/task2_signal2.png>
+ [23
 
 ])
 
@@ -1368,9 +1423,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[table] on input line 85.
 See the caption package documentation for explanation.
 
-[13
-
-]
+[24] [25]
 \tf@toc=\write6
 \openout6 = `0_main.toc'.
 
@@ -1380,18 +1433,18 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `0_main.out' has not changed.
-(rerunfilecheck)             Checksum: B3B3BAF7D4180F3D5B6795E8A835CD4F;3540.
+(rerunfilecheck)             Checksum: FCF0BCDEE7380AAA5DD4CED0143D1CB9;4390.
 Package logreq Info: Writing requests to '0_main.run.xml'.
 \openout1 = `0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30482 strings out of 474928
- 578522 string characters out of 5765086
- 1926164 words of memory out of 5000000
- 52070 multiletter control sequences out of 15000+600000
+ 30738 strings out of 474928
+ 588493 string characters out of 5765086
+ 1928164 words of memory out of 5000000
+ 52303 multiletter control sequences out of 15000+600000
  561533 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,11n,93p,1147b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (13 pages).
+Output written on 0_main.pdf (25 pages).

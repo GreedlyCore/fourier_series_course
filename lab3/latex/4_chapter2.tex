@@ -29,6 +29,7 @@
 
 % \textit{NB.} - В этом задании мы используем унитарное преобразование Фурье к угловой частоте $\omega$, оно будет выглядеть следующим образом: 
 
+
 Для начала задаём константы $a, b, c, d, t_1, t_2$, что $t_1 < t_2$, После составляем функцию:
 $$
 g(t) = \begin{cases}
@@ -53,25 +54,25 @@ $$\dots из чего сразу следует, что у нас добавля
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{image_a=3_b=1_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{image_a=3_b=1_c=0_d=0.png}
     \caption{Фурье-образ зашумлённого сигнала}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{image_a=3_b=2_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{image_a=3_b=2_c=0_d=0.png}
     \caption{Фурье-образ зашумлённого сигнала}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{image_a=3_b=5_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{image_a=3_b=5_c=0_d=0.png}
     \caption{Фурье-образ зашумлённого сигнала}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{image_a=3_b=8_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{image_a=3_b=8_c=0_d=0.png}
     \caption{Фурье-образ зашумлённого сигнала}
 \end{figure}
 
@@ -81,25 +82,25 @@ $$\dots из чего сразу следует, что у нас добавля
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=1_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=1_c=0_d=0.png}
     \caption{Применили фильтр нижних частот}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=2_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=2_c=0_d=0.png}
     \caption{Применили фильтр нижних частот}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=5_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=5_c=0_d=0.png}
     \caption{Применили фильтр нижних частот}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=8_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=8_c=0_d=0.png}
     \caption{Применили фильтр нижних частот}
 \end{figure}
 
@@ -108,67 +109,188 @@ $$\dots из чего сразу следует, что у нас добавля
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=1_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=1_c=0_d=0.png}
     \caption{Применили обратное преобразование Фурье}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=2_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=2_c=0_d=0.png}
     \caption{Применили обратное преобразование Фурье}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=5_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=5_c=0_d=0.png}
     \caption{Применили обратное преобразование Фурье}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{applied_filter_a=3_b=8_c=0_d=0.png}
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=8_c=0_d=0.png}
     \caption{Применили обратное преобразование Фурье}
 \end{figure}
 
+\newpage
 \subsection{Выводы}
 
-Оставьте его неизменным для некоторого диапазона частот $[−\nu_0, \nu_0]$, но обнулите
-его значения на всех остальных частотах, после чего выполните обратное преобразование Фурье. Постройте сравнительные графики исходного и фильтрованного
-сигналов (для большей наглядности имеет смысл выводить на график лишь некоторую окрестность интервала [t1, t2]). Постройте сравнительные графики модуля
-Фурье-образа исходного и фильтрованного сигналов. Исследуйте влияние частоты
-среза ν0 и значения параметра b на эффективность фильтрации.
-
+При увеличении $b$ мы добавляем больше сбвига амплитуд в исходную синусоиду, что усложняет дальнешую фильтрацию и возвращение
+ к исходной функции, поэтому при фильтрации с бОльшой $b$ очищенная функция была "неуверена" в себе.
+Также очевидно, при большем диапазоне фильтра мы оставляем больше частот, а значит и отфильтрованная функция будет больше колебаться, т.е. опять "неуверена" в себе. Поэтому оптимальный случай для фильтрации таким фильтром - небольшой $b$ и небольшой срез.
 
 \section{Убираем специфические частоты}
 
 Выберем все параметры $b, c, d$ ненулевыми. Теперь мы уже имеем дело с двумя компонентами шума - случайным и гармоническим. Соответственно, чтобы убрать обе компоненты, надо применить два фильтра, один из них мы уже нашли в пункте до.
-
+\newpage
 \subsection{Фурье-образ сигнала u}
 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=1_c=2_d=6.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=2_d=3.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=0_c=2_d=3.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=2_d=3.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
+
+\newpage
 \subsection{Применяем фильтр}
-Постараемся обнулить Фурье-образ на некоторых диапазонах частот, чтобы максимально убрать влияние обеих компонент помехи\dots
+В данном случае далеко слишком начало пределов фильтра не стоит ставить - иначе сигнал совсем уж плохо отфильтруется.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=1_c=2_d=6.png}
+    \caption{Применили специфический фильтр}
+\end{figure}
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=2_d=3.png}
+    \caption{Применили специфический фильтр}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=0_c=2_d=3.png}
+    \caption{Применили специфический фильтр}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=2_d=3.png}
+    \caption{Применили специфический фильтр}
+\end{figure}
+
+\newpage
+\newpage
 \subsection{Возвращаемся к очищенному сигналу}
-Постройте сравнительные графики исходного и фильтрованного сигналов, а также графики модулей их Фурье образов. Исследуйте влияние частот среза, а также значений параметров b, c, d
-на вид помехи и эффективность фильтрации (отдельно рассмотрите случай b=0).
+Применяем обратное преобразование Фурье, а потом сравниваем с оригинальным сигналом\dots
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=1_c=2_d=6.png}
+    \caption{Делаем обратное преобразование Фурье}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=2_d=3.png}
+    \caption{Делаем обратное преобразование Фурье}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=0_c=2_d=3.png}
+    \caption{Делаем обратное преобразование Фурье}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=2_d=3.png}
+    \caption{Делаем обратное преобразование Фурье}
+\end{figure}
+
+\newpage
 \subsection{Выводы}
 
+Из формулы зашумленного сигнала понятно, что компонента $b$ отвечает за случайный шум, а $c$ и $d$ - за
+гармонический, при этом $c$ - амплитуда, а $d$ - частота. Чем меньше шума было внесено в функцию, тем лучше будет получаться
+его убрать. Но даже при довольно больших значениях параметров $b, c, d$ удалось убрать шум,
+не сильно исказив исходную функцию. И так получилось, что только *не* срезав достаточно низких частот, мы хорошо приближаемся к исходной гладкой функции.
 
-
+\newpage
 \section{Убираем низкие частоты?}
 
-Рассмотрите фильтр, который обнуляет Фурье-образ
-на всех частотах в некоторой окрестности точки ν = 0. Пропустите сигнал через
-такой фильтр и оцените результат. Сделайте выводы.
+Рассмотрим фильтр, который обнуляет Фурье-образ на всех частотах в некоторой окрестности точки $\nu = 0$. 
+Пропустим сигнал через такой фильтр и оценим результат.
+
+\newpage
+\subsection{Фурье-образ сигнала u}
 
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=0_c=3_d=3.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.9\textwidth]{f1_1.png}
-%     \caption{График и образ прямоугольной функции}
-% \end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{abs_image_a=3_b=6_c=5_d=4.png}
+    \caption{Фурье-образ зашумлённого сигнала}
+\end{figure}
 
+
+\newpage
+\subsection{Применяем фильтр}
+Текст.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=0_c=3_d=3.png}
+    \caption{Применяем фильтр высоких частот}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{applied_filter_a=3_b=6_c=5_d=4.png}
+    \caption{Применяем фильтр высоких частот}
+\end{figure}
+
+\newpage
+\newpage
+\subsection{Возвращаемся к очищенному сигналу}
+Применяем обратное преобразование Фурье, а потом сравниваем с оригинальным сигналом\dots
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=0_c=3_d=3.png}
+    \caption{Применяем обратное преобразование Фурье}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pure_signal_a=3_b=6_c=5_d=4.png}
+    \caption{Применяем обратное преобразование Фурье}
+\end{figure}
+
+\newpage
+\subsection{Выводы}
+Видно, что от исходной функции остался только шум, и это логично, ведь мы убрали низкие частоты, которые, в большинстве, 
+и соответствовали самой функции. Амплитуда шума как будто осталась неизменной, что ещё раз подтверждает нашу гипотезу. Однако, если взять слишком малый срез, то функция почти будет подобать оригинальной(второй случай).
 
 \endinput

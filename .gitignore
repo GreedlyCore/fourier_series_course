@@ -5,7 +5,7 @@ testingManim/*
 
 ### MATLAB ###
 
-*.mlx
+
 # Windows default autosave extension
 *.asv
 

@@ -1,0 +1,156 @@
+\chapter{Размытие изображения}
+\label{ch:chap2}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.6,0.6,0.6}
+\definecolor{codepurple}{rgb}{0.68,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mirele.png}
+	\caption{Оригинал}
+\end{figure}
+
+Будем делать размытие по среднему и по Гауссу, для этого подготовим несколько матриц:
+
+Три матрицы блочного размытия, для каждой из которой мы выбираем размерность $n \geq 3$, некоторые примеры таких матриц:
+$$
+\begin{aligned}
+    (n=3)\rightarrow\begin{pmatrix}
+        \frac{1}{9} & \frac{1}{9} & \frac{1}{9}\\
+        \frac{1}{9} & \frac{1}{9} & \frac{1}{9}\\
+        \frac{1}{9} & \frac{1}{9} & \frac{1}{9} 
+    \end{pmatrix}
+    (n=4)\rightarrow\begin{pmatrix}
+        \frac{1}{16} & \frac{1}{16} & \frac{1}{16} & \frac{1}{16} \\
+        \frac{1}{16} & \frac{1}{16} & \frac{1}{16} & \frac{1}{16} \\
+        \frac{1}{16} & \frac{1}{16} & \frac{1}{16} & \frac{1}{16} \\
+        \frac{1}{16} & \frac{1}{16} & \frac{1}{16} & \frac{1}{16} 
+    \end{pmatrix}
+    \rightarrow\dots
+\end{aligned}
+$$
+
+Три матрицы размытия по Гауссу, для каждой из которой мы выбираем размерность $n \geq 3$, и формируем внутренности за счёт следующей функции:
+$$
+f(x, y) = e^{-\frac{9}{n^2}( (x - \frac{n+1}{2})^2 + (y - \frac{n+1}{2})^2 )}
+$$
+После эту матрицу нужно пронормировать(=поделить) на сумму всех элементов внутри неё. Матрица в итоге станет центрально-симметрична. Не стану приводить численные примеры, их можно увидеть в \texttt{MATLAB} коде.
+\newpage
+\section{Через свёртку напрямую}
+Делаем свёртку исходного изображения с каждым из ядер для каждого из размытий, получаем следующие результаты:
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_MED1.png}
+	\caption{Размытие по среднему, n = 5}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_GAUSSIAN1.png}
+	\caption{Размытие по Гауссу, n = 5}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_MED2.png}
+	\caption{Размытие по среднему, n = 13}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_GAUSSIAN2.png}
+	\caption{Размытие по Гауссу, n = 13}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_MED3.png}
+	\caption{Размытие по среднему, n = 19}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele_GAUSSIAN3.png}
+	\caption{Размытие по Гауссу, n = 19}
+\end{figure}
+\newpage
+Почему-то только при эффекте размытия наложение трех каналов после применение эффекта даёт не только размытое изображение, но и урезанное-убитое в цветовом плане - сравните оригинал и любое другое полученное... Я проверил код, и он абсолютно идентичен для ядер далее, но далее изображения не искажаются так,
+то есть как будто бы проблема именно в применении эффекта, но пока что я корень зла не нашёл, однако размытие есть, поэтому работаем с тем, что имею. В плане степени эффекта - при $n>10$ эффект более чем заметен.
+
+\newpage
+\section{Через использование теоремы о свёртке}
+Теорема о свёртке, которую мы использовали в прошлых лабах, с небольшими модификациями, может быть применима и сейчас:
+$$
+X \ast Y = (\hat{X}) \cdot (\hat{Y})
+$$
+В качестве модификации нам придется дополнить незначительными нулями размерность матрицы ядра размытия до размера изображения. В моём случае оно квадратное, чтобы немного упростить себе жизнь.
+
+Будем искать Фурье-образ от исходного изображения и от каждого из ядер, заполнив пропуски нулями. После перемножаем их, и делаем обратное преобразование, чтобы посмотреть как сработало применение фильтра. Ниже можно взглянуть как через теорему о свёртке у нас это получилось:
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_MED1.png}
+	\caption{Размытие по среднему, n = 5}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_GAUSSIAN1.png}
+	\caption{Размытие по Гауссу, n = 5}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_MED2.png}
+	\caption{Размытие по среднему, n = 13}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_GAUSSIAN2.png}
+	\caption{Размытие по Гауссу, n = 13}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_MED3.png}
+	\caption{Размытие по среднему, n = 19}
+\end{figure}
+\newpage
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{mirele2_GAUSSIAN3.png}
+	\caption{Размытие по Гауссу, n = 19}
+\end{figure}
+
+
+\section{Мини-выводы}
+Мы могли заметить невооружённым взглядом, что теорема о свёртке работает и в случае её $2D$ применения, 
+ведь результаты совпадают - перемножая образы, или делая свёртку непосредственно.
+
+Касательно качества блочного и гауссовского размытия вроде бы ничего содержательного не скажешь, кроме того, как по среднему действует жёстко и однообразно, 
+а по Гауссу - мягче и приятнее для взгляда, что неудивительно ведь она использует внутри себя "что-то" про нормальное распределение.
+\endinput

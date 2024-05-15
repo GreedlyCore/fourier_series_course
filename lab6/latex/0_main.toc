@@ -1,0 +1,15 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Исходный код}{3}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {2}Фильтрация изображений с периодичностью}{4}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {3}Размытие изображения}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Через свёртку напрямую}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Через использование теоремы о свёртке}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Мини-выводы}{14}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Увеличение резкости}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Через свёртку напрямую}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Через использование теоремы о свёртке}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Мини-выводы}{20}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Выделение краёв}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Через свёртку напрямую}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Через использование теоремы о свёртке}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Мини-выводы}{26}{section.5.3}%

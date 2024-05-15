@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  18 APR 2024 00:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.12)  1 MAY 2024 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1348,72 +1348,4 @@ File: images/test_linear_filter=3_b=1_T=0_10.png Graphic file (type bmp)
 File: images/test_linear_filter=3_b=1_T=0_20.png Graphic file (type bmp)
 <images/test_linear_filter=3_b=1_T=0_20.png>
 File: images/test_linear_filter=3_b=1_T=0_50.png Graphic file (type bmp)
-<images/test_linear_filter=3_b=1_T=0_50.png>
- [8
-
-]
-File: images/test_linear_filter=3_b=1_T=10_00.png Graphic file (type bmp)
-<images/test_linear_filter=3_b=1_T=10_00.png>
-File: images/test_linear_filter=3_b=1_T=20_00.png Graphic file (type bmp)
-<images/test_linear_filter=3_b=1_T=20_00.png>
-File: images/test_linear_filter=3_b=1_T=100_00.png Graphic file (type bmp)
-<images/test_linear_filter=3_b=1_T=100_00.png>
-File: images/test_linear_filter=6_b=3_T=0_10.png Graphic file (type bmp)
-<images/test_linear_filter=6_b=3_T=0_10.png>
-File: images/test_linear_filter=6_b=3_T=0_50.png Graphic file (type bmp)
-<images/test_linear_filter=6_b=3_T=0_50.png>
-File: images/test_linear_filter=10_b=3_T=0_20.png Graphic file (type bmp)
-<images/test_linear_filter=10_b=3_T=0_20.png>
- [9] [10] [11] [12] [13] [14] [15] [16] [17]
-File: images/test_specific_filter=3_b=0_c=1_d=1_T1=0_07_T2=4_00_T3=4_00.png Graphic file (type bmp)
-<images/test_specific_filter=3_b=0_c=1_d=1_T1=0_07_T2=4_00_T3=4_00.png>
-File: images/test_specific_filter=3_b=0_c=1_d=1_T1=0_50_T2=4_00_T3=4_00.png Graphic file (type bmp)
-<images/test_specific_filter=3_b=0_c=1_d=1_T1=0_50_T2=4_00_T3=4_00.png>
- [18
-
-]
-File: images/test_specific_filter=3_b=0_c=6_d=5_T1=0_05_T2=2_00_T3=2_00.png Graphic file (type bmp)
-<images/test_specific_filter=3_b=0_c=6_d=5_T1=0_05_T2=2_00_T3=2_00.png>
-File: images/test_specific_filter=3_b=0_c=6_d=8_T1=0_05_T2=5_00_T3=5_00.png Graphic file (type bmp)
-<images/test_specific_filter=3_b=0_c=6_d=8_T1=0_05_T2=5_00_T3=5_00.png>
-) (./5_chapter3.tex [19] [20] [21]
-File: images/test_stocks_original_SBER.png Graphic file (type bmp)
-<images/test_stocks_original_SBER.png>
-File: images/untitled.png Graphic file (type bmp)
-<images/untitled.png>
-)
-
-Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 85.
-See the caption package documentation for explanation.
-
-[22
-
-] [23]
-\tf@toc=\write6
-\openout6 = `0_main.toc'.
-
- (./0_main.aux)
- ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2020/03/25>
- ***********
-Package rerunfilecheck Info: File `0_main.out' has not changed.
-(rerunfilecheck)             Checksum: B94848EC46FDF382E5EE421716514F3B;3691.
-Package logreq Info: Writing requests to '0_main.run.xml'.
-\openout1 = `0_main.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 30610 strings out of 474928
- 584985 string characters out of 5765086
- 1926164 words of memory out of 5000000
- 52184 multiletter control sequences out of 15000+600000
- 561533 words of font info for 73 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 85i,11n,93p,1147b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on 0_main.pdf (23 pages).
+<imag

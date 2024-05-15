@@ -1,0 +1,11 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Исходный код}{3}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {2}Непрерывное и дискретное преобразование Фурье}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Истинный Фурье-образ}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Численное интегрирование}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Использование DFT}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Немного объяснений}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Приближение непрерывного с помощью DFT}{10}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {3}Сэмплирование}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Сэмплирование синусов}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Сэмплирование sinus cardinalis}{15}{section.3.2}%

@@ -1,5 +1,0 @@
-u, v = np.meshgrid(np.arange(cols), np.arange(rows))
-u = u + 20 * np.sin(2 * np.pi * v / 90)
-I_sin = cv.remap(I, u.astype(np.float32), v.astype(np.float32), cv.INTER_LINEAR)
-plt.imshow(cv.cvtColor(I_sin, cv.COLOR_BGR2RGB))
-plt.axis('off')
